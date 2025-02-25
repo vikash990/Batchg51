@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <script src="fetch.js"></script>
+    </head>
 
 <body>
 
-    
-
-    <div id="div1">
-       
-    </div>
+  
 
     <script>
 
-        
-      
-      let arr=[10,11,12,13,14,15,17]
+     function ClickMe(){
 
-     
-      for(let i=0;i<arr.length;i++){
-        const para=document.createElement("h2");
-        const data=document.createTextNode(arr[i]);
-        para.appendChild(data);
+        const para = document.createElement("p");
+        const node = document.createTextNode("This is new.");
+        para.appendChild(node);
+        const element = document.getElementById("div1");
+        element.appendChild(para);
+     }
 
-        const parent=document.getElementById("div1");
-        parent.appendChild(para)
-      }
+    function RemoveMe(){
+        const para=document.getElementById("div1")
+        const ele=document.getElementById("p1");
+        para.removeChild(ele)
+    }
 
     </script>
 
