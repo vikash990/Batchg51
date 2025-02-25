@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="fetch.js"></script>
-    </head>
+  <head>
+    <script src="fetch.js"></script>
+  </head>
 
-<body>
-
+  <body>
     <h2>JavaScript HTML DOM</h2>
     <p>new change to commit</p>
     <p>another change is made.</p>
     <p>Add a new HTML Element.</p>
+    <<<<<<< HEAD
+    <p>hello class</p>
+    =======
+    <h2>JavaScript HTML DOM</h2>
+    <p>Add a new HTML Element.</p>
+    <h2>JavaScript HTML DOM</h2>
+    <p>Add a new HTML Element.</p>
+    <h2>JavaScript HTML DOM</h2>
+    <p>Add a new HTML Element.</p>
+    <h2>JavaScript HTML DOM</h2>
+    <p>Add a new HTML Element.</p>
+    <p>Add a new HTML Element.</p>
 
+    <p>Add a new HTML Element.</p>
+    
+<h1>Hello world</h1>
+
+    >>>>>>> 05a5a62ecbe8f77d4dbb6f5e68d26178a70bfa68
     <div id="div1">
-        <p id="p1">This is a paragraph.</p>
-        <p id="p2">This is another paragraph.</p>
+      <p id="p1">This is a paragraph.</p>
+      <p id="p2">This is another paragraph.</p>
+      <p>Para From Swapnil</p>
     </div>
-   <button onclick="ClickMe()">Add </button>
-   <button onclick="RemoveMe()">Remove </button>
+    <button onclick="ClickMe()">Add</button>
+    <button onclick="RemoveMe()">Remove</button>
 
     <script>
-
-     function ClickMe(){
-
+      function ClickMe() {
         const para = document.createElement("p");
         const node = document.createTextNode("This is new.");
         para.appendChild(node);
         const element = document.getElementById("div1");
         element.appendChild(para);
-     }
+      }
 
-    function RemoveMe(){
-        const para=document.getElementById("div1")
-        const ele=document.getElementById("p1");
-        para.removeChild(ele)
-    }
-
+      function RemoveMe() {
+        const para = document.getElementById("div1");
+        const ele = document.getElementById("p1");
+        para.removeChild(ele);
+      }
     </script>
-
-</body>
-
+  </body>
 </html>
