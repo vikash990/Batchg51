@@ -8,7 +8,7 @@ setTimeout(()=>{
 console.log("c")
 
 setTimeout(()=>{
-    console.log("b")
+    console.log("a")
 },1000)
 
 
