@@ -4,7 +4,7 @@ setTimeout(()=>{
     console.log("b")
 },4000)
 
-
+console.log("Nihaal")
 console.log("c")
 
 setTimeout(()=>{
