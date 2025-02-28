@@ -7,7 +7,7 @@ setTimeout(() => {
 console.log("c");
 
 setTimeout(() => {
-  console.log("b");
+  console.log("Conflict code");
 }, 1000);
 
 console.log("e");
