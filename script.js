@@ -1,19 +1,18 @@
-console.log("a")
+console.log("a");
 
-setTimeout(()=>{
-    console.log("b")
-},4000)
+setTimeout(() => {
+  console.log("b");
+}, 4000);
 
+console.log("c");
 
-console.log("c")
+setTimeout(() => {
+  console.log("b");
+}, 1000);
 
-setTimeout(()=>{
-    console.log("b")
-},1000)
+console.log("e");
 
-
-console.log("e")
-
-setInterval(function(){
-   console.log("i callled")
-},2000)
+setInterval(function () {
+  console.log("i callled");
+}, 2000);
+console.log("Swapnil's code");
