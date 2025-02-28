@@ -10,7 +10,7 @@ setTimeout(() => {
   console.log("Conflict code");
 }, 1000);
 
-console.log("e");
+console.log("e4404");
 
 setInterval(function () {
   console.log("i callled");
